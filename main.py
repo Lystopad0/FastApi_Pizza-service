@@ -13,6 +13,8 @@ app = FastAPI()
 
 # Authentication JWT schema
 # that was still from the StackOverFlow ;)
+# for the test commit
+
 def custom_openapi():
     if app.openapi_schema:
         return app.openapi_schema
