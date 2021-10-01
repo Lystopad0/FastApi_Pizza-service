@@ -12,7 +12,6 @@ from fastapi.openapi.utils import get_openapi
 app = FastAPI()
 
 # Authentication JWT schema
-# that was still from the StackOverFlow ;)
 # for the test commit
 
 def custom_openapi():
